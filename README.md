@@ -1,8 +1,6 @@
 
 # Virtual Mouse using Hand Gestures
 
-I did this project about 4 years back during my bachelor's . I forgot to push it on github that time so doing it now ;)
-
 ## About the Project
 
 Developed a program for controlling the mouse movement using Python and openCV with real-time camera that detects hand landmarks, tracks gesture patterns instead of a physical mouse.
