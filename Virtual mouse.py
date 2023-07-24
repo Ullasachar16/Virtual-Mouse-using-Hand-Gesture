@@ -7,7 +7,6 @@ mouse=Controller()
 app=wx.App(False)
 (sx,sy)=wx.GetDisplaySize()
 (capx,capy)=(480,360)
-
 cap=cv2.VideoCapture(0)
 cap.set(3,capx)
 cap.set(4,capy)
