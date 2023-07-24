@@ -24,7 +24,6 @@ while True:
     ret,img=cap.read()
     #img=cv2.resize(img,(360,240))
     # Convert BGR to HSV(Hue Saturation Value)
-    
     imgHSV=cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
 
     #Create the mask
