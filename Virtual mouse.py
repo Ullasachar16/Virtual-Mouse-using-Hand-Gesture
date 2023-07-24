@@ -19,7 +19,6 @@ kernelClose=np.ones((20,20))
 mLocOld=np.array([0,0])
 mouseLoc=np.array([0,0])
 DampingFactor=2 # should be greater than 1
-
 pinchFlag=0
 openx,openy,openw,openh=(0,0,0,0)
 
