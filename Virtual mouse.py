@@ -27,7 +27,6 @@ while True:
     imgHSV=cv2.cvtColor(img,cv2.COLOR_BGR2HSV)
     #Create the mask
     mask=cv2.inRange(imgHSV,lowerBound,upperBound)
-
     # Morphology
     maskOpen=cv2.morphologyEx(mask,cv2.MORPH_OPEN,kernelOpen)
     maskClose=cv2.morphologyEx(maskOpen,cv2.MORPH_CLOSE,kernelClose)
